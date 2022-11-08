@@ -15,9 +15,12 @@
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
     >
       <a-text
-        value="STRIKE."
+        value="This content will always face you."
         look-at="[gps-camera]"
-        scale="120 120 120"
+        scale="50 50"
+        rotation="0 90 0"
+        position="-2.5 4 0"
+        z-offset="3"
         gps-entity-place="latitude: 37.8701548527; longitude: -122.256462307;"
       ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
